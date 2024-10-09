@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# One Thousand and One Nights
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

@@ -1,5 +1,22 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: One Thousand and One Nights
-site_url: https://mydomain.org/mysite
+site_url: https://wjkuser.github.io
+site_author: JK Wang
+
 theme:
   name: material
+
+plugins:
+  - search
+  - blog
+
+nav:
+  - Welcome: index.md
+  - BLOG: blog
+  - Course:
+    - Computer Organization: course/Computer Organization/none.md
+    - JAVA: course/JAVA
+  - Skills:
+      - MarkDown: Skills/MarkDown
+  - Essey:
+      - blog/posts/myfirst.md
