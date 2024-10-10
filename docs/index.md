@@ -1,17 +1,16 @@
 # One Thousand and One Nights
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## 卷&ensp;首&ensp;语
 
-## Commands
+&emsp;&emsp;在古老的传说里，一位勇敢的女孩，为了阻止残暴国王对无辜女孩的杀害，
+每晚向他讲述一篇动人的故事，只身抵抗悲剧的来临。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+&emsp;&emsp;这个传说有一个童话般的结局：在一千零一个晚上，一千零一个故事——甚至故事的故事里，
+穷小子腰缠万贯，富家翁客死他乡。神与鬼横行之处，罪恶与崇高交织成网，
+被那位随时就有可能见不到第二天太阳的女孩编织，终是网住了国王暴虐的心。
 
-## Project layout
+&emsp;&emsp;但我认为，这却是最不应该有结局的故事。在如此漫长的时间——一千零一个夜晚中，
+未知的未来似乎已经成为永恒。任何苍白的结局，都无法阐释漫漫长夜中，面对未知与死亡仍然坚韧细腻的心。
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+&emsp;&emsp;我希望这个网站同样是我的一千零一夜。通过一篇篇博客与随笔，
+在它不断的更新与丰富中，见证鄙人在计科乃至生活的道路上，一步步摸索前行。
