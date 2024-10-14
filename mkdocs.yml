@@ -5,6 +5,30 @@ site_author: JK Wang
 
 theme:
   name: material
+  features:
+    - navigation.tabs #上方导航卡
+    - navigation.sections #侧方导航目录
+    - navigation.indexes
+    - toc.follow #Anchor following
+    - navigation.top #Back-to-top button
+    - search.suggest #search suggest
+    - search.share #search share
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
 
 plugins:
   - search
@@ -14,9 +38,18 @@ nav:
   - Welcome: index.md
   - BLOG: blog
   - Course:
-    - Computer Organization: course/Computer Organization/none.md
-    - JAVA: course/JAVA
+    - course/index.md
+    - Computer Organization:
+        - course/Computer Organization/index.md
+        - P3：课上考试总结: course/Computer Organization/P1_exam.md
+    - JAVA: course/JAVA/index.md
   - Skills:
-      - MarkDown: Skills/MarkDown
-  - Essey:
-      - blog/posts/myfirst.md
+      - Skills/index.md
+      - MarkDown:
+          - Skills/MarkDown/index.md
+  - Essay:
+      - Essay/index.md
+      - Essay/myfirst.md
+
+extra_css:
+  - stylesheets/extra.css
