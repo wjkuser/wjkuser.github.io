@@ -41,7 +41,8 @@ nav:
     - course/index.md
     - Computer Organization:
         - course/Computer Organization/index.md
-        - P3：课上考试总结: course/Computer Organization/P1_exam.md
+        - P1 课上-Verilog小知识: course/Computer Organization/P1_exam.md
+        - P3 课下-Logisim搭建简单CPU: course/Computer Organization/P3_exercise.md
     - JAVA: course/JAVA/index.md
   - Skills:
       - Skills/index.md
