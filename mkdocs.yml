@@ -8,6 +8,7 @@ theme:
   features:
     - navigation.tabs #上方导航卡
     - navigation.sections #侧方导航目录
+    - navigation.tracking
     - navigation.indexes
     - toc.follow #Anchor following
     - navigation.top #Back-to-top button
@@ -41,8 +42,10 @@ nav:
     - course/index.md
     - Computer Organization:
         - course/Computer Organization/index.md
-        - P1 课上-Verilog小知识: course/Computer Organization/P1_exam.md
-        - P3 课下-Logisim搭建简单CPU: course/Computer Organization/P3_exercise.md
+        - P1 课上 - Verilog 小知识: course/Computer Organization/P1_exam.md
+        - P3 课下 - Logisim 单周期 CPU: course/Computer Organization/P3_exercise.md
+        - P4 课下 - Verilog 单周期 CPU: course/Computer Organization/P4_exercise.md
+        - P5 课下 - 简单流水线 CPU: course/Computer Organization/P5_exercise.md
     - JAVA: course/JAVA/index.md
   - Skills:
       - Skills/index.md
