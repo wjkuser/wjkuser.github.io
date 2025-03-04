@@ -46,7 +46,13 @@ nav:
         - P3 课下 - Logisim 单周期 CPU: course/Computer Organization/P3_exercise.md
         - P4 课下 - Verilog 单周期 CPU: course/Computer Organization/P4_exercise.md
         - P5 课下 - 简单流水线 CPU: course/Computer Organization/P5_exercise.md
-    - JAVA: course/JAVA/index.md
+    - JAVA:
+        - course/JAVA/index.md
+        - Unit 1 - 多项式处理:
+            - week 1:
+                - 题目描述: course/JAVA/week1/problem.md
+                - 架构设计: course/JAVA/week1/architecture.md
+                - 代码分析: course/JAVA/week1/code.md
   - Skills:
       - Skills/index.md
       - MarkDown:
