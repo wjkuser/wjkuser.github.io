@@ -49,10 +49,18 @@ nav:
     - JAVA:
         - course/JAVA/index.md
         - Unit 1 - 多项式处理:
+            - course/JAVA/Unit 1/index.md
             - week 1:
-                - 题目描述: course/JAVA/week1/problem.md
-                - 架构设计: course/JAVA/week1/architecture.md
-                - 代码分析: course/JAVA/week1/code.md
+                - 题目描述: course/JAVA/Unit 1/week1/problem.md
+                - 架构设计: course/JAVA/Unit 1/week1/architecture.md
+            - week 2:
+                - 题目描述: course/JAVA/Unit 1/week2/problem.md
+                - Bug修复: course/JAVA/Unit 1/week2/debugs.md
+            - week 3:
+                - 题目描述: course/JAVA/Unit 1/week3/problem.md
+                - Bug分析: course/JAVA/Unit 1/week3/bugs.md
+    - CompilerTechnology:
+        - course/CompilerTechnology/index.md
   - Skills:
       - Skills/index.md
       - MarkDown:
