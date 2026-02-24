@@ -14,6 +14,7 @@ theme:
     - navigation.top #Back-to-top button
     - search.suggest #search suggest
     - search.share #search share
+    - content.code.copy # 代码复制
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -34,15 +35,20 @@ theme:
 plugins:
   - search
   - blog
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date   # 可选：显示格式 (date, datetime, timeago, iso_date)
 
 nav:
   - Welcome: index.md
-  - BLOG: blog
+  - BLOG:
+      - blog/index.md
   - Course:
     - course/index.md
     - Computer Organization:
         - course/Computer Organization/index.md
         - P1 课上 - Verilog 小知识: course/Computer Organization/P1_exam.md
+        # - P1 课上 - Verilog 小知识: blog/posts/P1_exam.md
         - P3 课下 - Logisim 单周期 CPU: course/Computer Organization/P3_exercise.md
         - P4 课下 - Verilog 单周期 CPU: course/Computer Organization/P4_exercise.md
         - P5 课下 - 简单流水线 CPU: course/Computer Organization/P5_exercise.md
@@ -55,16 +61,20 @@ nav:
                 - 架构设计: course/JAVA/Unit 1/week1/architecture.md
             - week 2:
                 - 题目描述: course/JAVA/Unit 1/week2/problem.md
-#                - Bug修复: course/JAVA/Unit 1/week2/debugs.md
+                # - Bug修复: course/JAVA/Unit 1/week2/debugs.md
             - week 3:
                 - 题目描述: course/JAVA/Unit 1/week3/problem.md
-#                - Bug分析: course/JAVA/Unit 1/week3/bugs.md
+                # - Bug分析: course/JAVA/Unit 1/week3/bugs.md
     - CompilerTechnology:
         - course/CompilerTechnology/index.md
   - Skills:
       - Skills/index.md
       - MarkDown:
           - Skills/MarkDown/index.md
+      - LeetCode:
+          - Skills/LeetCode/index.md
+          - 0001 两数之和: Skills/LeetCode/0001.md
+          - 1022 从根到叶的二进制数之和: Skills/LeetCode/1022.md
   - Essay:
       - Essay/index.md
       - Essay/myfirst.md
@@ -73,8 +83,21 @@ extra_css:
   - stylesheets/extra.css
 
 markdown_extensions:
-  - pymdownx.arithmatex:
+  - pymdownx.arithmatex: # 支持行间公式
       generic: true
+  - md_in_html # 在 HTML 标签内部写 Markdown
+  - pymdownx.snippets: # 允许引入外部 HTML 片段 [--8<-- "my-component.html"]
+      base_path: docs
+  - pymdownx.highlight:
+      linenums: false # 全局行号显示
+      anchor_linenums: true # 让行号可以被链接锚定
+      line_spans: __span    # 优化行号显示
+      pygments_lang_class: true # 允许通过 CSS 自定义特定语言样式
+  - pymdownx.superfences: # 支持嵌套代码块
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_javascript:
   - javascripts/mathjax.js
