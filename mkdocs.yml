@@ -74,7 +74,10 @@ nav:
       - LeetCode:
           - Skills/LeetCode/index.md
           - 0001 两数之和: Skills/LeetCode/0001.md
+          - 0031 下一个排列: Skills/LeetCode/0031.md
           - 0084 柱状图中最大的矩形: Skills/LeetCode/0084.md
+          - 0160 相交链表: Skills/LeetCode/0160.md
+          - 0215 数组中的第K个最大元素: Skills/LeetCode/0215.md
           - 1022 从根到叶的二进制数之和: Skills/LeetCode/1022.md
   - Essay:
       - Essay/index.md
