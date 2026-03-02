@@ -74,11 +74,15 @@ nav:
       - LeetCode:
           - Skills/LeetCode/index.md
           - 0001 两数之和: Skills/LeetCode/0001.md
+          - 0003 无重复字符的最长子串: Skills/LeetCode/0003.md
           - 0031 下一个排列: Skills/LeetCode/0031.md
+          - 0075 颜色分类: Skills/LeetCode/0075.md
           - 0084 柱状图中最大的矩形: Skills/LeetCode/0084.md
+          - 0121 买卖股票的最佳时机: Skills/LeetCode/0121.md
           - 0160 相交链表: Skills/LeetCode/0160.md
           - 0215 数组中的第K个最大元素: Skills/LeetCode/0215.md
           - 1022 从根到叶的二进制数之和: Skills/LeetCode/1022.md
+          - 1365 有多少小于当前数字的数字: Skills/LeetCode/1365.md
   - Essay:
       - Essay/index.md
       - Essay/myfirst.md
