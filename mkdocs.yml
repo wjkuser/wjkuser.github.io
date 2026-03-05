@@ -77,6 +77,7 @@ nav:
           - 0003 无重复字符的最长子串: Skills/LeetCode/0003.md
           - 0031 下一个排列: Skills/LeetCode/0031.md
           - 0033 搜索旋转排序数组: Skills/LeetCode/0033.md
+          - 0064 最小路径和: Skills/LeetCode/0064.md
           - 0072 编辑距离: Skills/LeetCode/0072.md
           - 0075 颜色分类: Skills/LeetCode/0075.md
           - 0084 柱状图中最大的矩形: Skills/LeetCode/0084.md
