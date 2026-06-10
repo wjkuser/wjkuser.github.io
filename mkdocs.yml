@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: One Thousand and One Nights
-site_url: https://wjkuser.github.io
+site_url: https://wjkuser.github.io/one-thousand-and-one-nights/
 site_author: JK Wang
 
 theme:
@@ -37,6 +37,8 @@ plugins:
   - blog
   - git-revision-date-localized:
       enable_creation_date: true
+      enable_git_follow: false
+      enable_parallel_processing: false
       type: date   # 可选：显示格式 (date, datetime, timeago, iso_date)
 
 nav:

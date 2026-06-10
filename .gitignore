@@ -1,0 +1,8 @@
+.idea
+.venv
+.gitignore
+*.iml
+target
+site/
+public/
+mkdocs-material/
