@@ -254,17 +254,11 @@ h3 {
   object-fit: cover;
 }
 
-.profile-band,
 .writing-band {
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
 
-.profile-band {
-  background: rgba(255, 253, 247, 0.66);
-}
-
-.profile-grid,
 .writing-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.1fr);
@@ -273,7 +267,6 @@ h3 {
   padding: clamp(3rem, 6vw, 5rem) 0;
 }
 
-.profile-grid p,
 .writing-grid p {
   margin: 0;
   color: var(--muted);
@@ -470,7 +463,6 @@ h3 {
   }
 
   .hero,
-  .profile-grid,
   .split-section,
   .contact-section,
   .writing-grid {
